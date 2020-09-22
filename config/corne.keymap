@@ -28,7 +28,7 @@
                         bindings = <
    &kp ESC    &kp NUM_1    &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5         &trans &trans &trans &kp LBKT &kp RBKT &trans
    &trans &kp NUM_6  &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0      &kp PRSC &kp PGUP &trans  &kp SCLN  &kp QUOT    &trans
-   &trans   &kp MINUS      &kp EQL       &kp BSLH       &kp VOLD       &kp VOLU            &kp DEL    &kp PGDN    &trans    &trans    &kp FSLH    &trans
+   &trans   &kp MINUS      &kp EQL       &kp BSLH       &trans       &trans            &kp DEL    &kp PGDN    &trans    &trans    &kp FSLH    &trans
                                         &kp LGUI     &trans       &kp SPC           &kp RET &trans &kp RALT
                         >;
                 };
