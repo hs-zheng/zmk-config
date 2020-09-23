@@ -34,7 +34,7 @@
                    &kp LGUI &kp LALT &lt 1 SPC   &lt 1 SPC &kp LARW &kp DARW
                         >;
                 };
-                lower_layer {
+                layer_1 {
 // -----------------------------------------------------------------------------------------
 // |  ESC |  1  |  2  |  3  |  4  |  5  |   |     |     |     |   [ |  ]  |      |
 // |      |  6  |  7  |  8  |  9  |  0  |   | PRSC| PGUP|     |   ; |  '  |      |
@@ -48,14 +48,14 @@
                         >;
                 };
 
-                raise_layer {
+                layer_2 {
 // -----------------------------------------------------------------------------------------
 // | ~    |  !  |  @  |  #  |  $  |  %  |   |     |     |     |  {  |  }  |      |
 // |      |  ^  |  &  |  *  |  (  |  )  |   |     |     |     |  :  |  "**  |      |
 // |      |  _**  |  +  | '|' |     |     |   |     |     |  <  |  >  |  ?**  |      | 
 //                    |     |     |     |   |     |     |     |
                         bindings = <
-   &kp TILD  ESC &kp BANG  &kp ATSN  &kp HASH  &kp CURU  &kp PRCT    &trans  &trans &trans &kp LCUR &kp RCUR &trans
+   &kp TILD &kp BANG  &kp ATSN  &kp HASH  &kp CURU  &kp PRCT    &trans  &trans &trans &kp LCUR &kp RCUR &trans
    &trans &kp CRRT     &kp AMPS    &kp KMLT    &kp LPRN    &kp RPRN     &trans &trans  &trans &kp COLN &kp QUOT &trans
    &trans &kp MINUS     &kp KPLS    &kp PIPE    &trans    &trans      &trans    &trans   &kp LABT   &kp RABT   &kp FSLH &trans
                                       &trans &trans &trans   &trans &trans &trans
